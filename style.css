@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+* {
+  font-family: "Poppins", serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92%;
+  margin: auto;
+ 
+  
+  
+  
+}
+
+.navbar h2 {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.25rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  
+}
+
+
+
+li a {
+  text-decoration: none;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+/* hero style */
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+ 
+}
+
+.bg-img {
+  background-image: url(images/Circle\ design.svg);
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.hero-title {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 3.25rem;
+  font-weight: 700;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.hero-discription {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.hero-title-container {
+  width: 45%;
+  margin-top: 100px;
+}
+
+.btn-primary{
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    color: white;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: none;
+    text-align: center;
+}
+
+/* company-logo */
+.company-container{
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(135.00deg, rgba(192, 204, 218, 0.1) 0%,rgba(192, 204, 218, 0.6) 50.378%,rgba(192, 204, 218, 0.1) 100%);
+    padding: 20px;
+    margin: auto;
+    margin-top: 90px;
+  
+}
+
+
+.fa-star-half,.fa-star{
+    color: #FFD700;
+    margin-top: 5px;
+}
+
+/* collection */
+
+.collection-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    
+    
+    
+}
+
+.Tripod{
+   
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgb(255, 255, 255);
+   margin: 0 auto;
+   padding: 15px;
+
+}
+
+.Tripod img{
+    width: 100%;
+
+}
+
+.flex-tripod-content{
+    text-align: left;
+    margin-top: 15px;
+    
+}
+
+.flex-tripod-discription{
+    color: rgb(120, 120, 133);
+    font-family: "Inter", serif;
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+    text-align: left;
+    
+}
+
+.popular-collection h2{
+    text-align: center;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 1.7rem;
+font-weight: 600;
+line-height: 4.35rem;
+letter-spacing: 0px;
+
+}
+
+.popular-collection{
+    margin-top: 80px;
+}
+
+.flex-tripod-content h2{
+    color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 1.75rem;
+font-weight: 500;
+line-height: 1.8rem;
+letter-spacing: 0%;
+text-align: left;
+display: inline;
+
+
+}
+
+.see-more{
+    color: #E02C6D;
+    margin-top: 20px;
+    text-align: right;
+}
+
+/* last section */
+.last-container{
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.last-img img{
+    width: 100%;
+}
+
+.last-content{
+    width: 50%;
+}
+
+.last-content h2{
+    color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 2.37rem;
+font-weight: 700;
+line-height: 2.5rem;
+letter-spacing: 0px;
+text-align: left;
+}
+
+.last-content{
+    color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 1rem;
+font-weight: 700;
+line-height: 1.75rem;
+letter-spacing: 0px;
+text-align: left;
+}
+
+
+/* footer */
+footer{
+    background-color: #0B0827;
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+
+    
+}
+
+footer h3{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 1.5rem;
+font-weight: 700;
+letter-spacing: 0px;
+text-align: center;
+display: inline;
+
+}
+
+footer p{
+    color: rgb(217, 219, 225);
+    font-family: "Manrope", serif;
+font-size: 0.8rem;
+font-weight: 700;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+.fa-brands{
+    /* Default / White */
+color: white;
+
+
+}
+
+.footer-content{
+    margin: auto;
+}
+
+.icon{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+body{
+    margin: o auto;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen  and (max-width:576px) {
+    .collection-container{
+        grid-template-columns: repeat(1,1fr);
+    
+    }
+    .last-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .last-content{
+        width: 100%;
+    }
+     
+    .last-content h2{
+        text-align: center;
+        
+    }
+  
+    .btn-container{
+        display: flex;
+        justify-content: center;
+    }
+    .company-container{
+      flex-direction: column;
+      gap: 30px;  
+      margin-top: 50px; 
+    }
+
+    .hero-container{
+        flex-direction: column-reverse;
+    }
+    .bg-img img{
+        width: 100%;
+    }
+
+    .hero-title{
+        text-align: center;
+        display: inline;
+    }
+
+    .hero-title-container{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: center;
+    }
+
+    .hero-discription{
+        text-align: center;
+    }
+
+    .navbar{
+        flex-direction: column;
+       
+    }
+
+    ul{
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding-right: 20px;
+    }
+}
