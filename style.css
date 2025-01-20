@@ -102,6 +102,7 @@ li a {
 /* company-logo */
 .company-container{
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-around;
     align-items: center;
     justify-items: center;
@@ -387,7 +388,7 @@ body{
         justify-content: center;
     }
     .company-container{
-      flex-direction: column;
+      flex-wrap: wrap;
       gap: 30px;  
       margin-top: 50px; 
     }
